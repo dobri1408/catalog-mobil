@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "myLMTJ",
+    "slug": "mylmtj",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/jarda.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/jarda.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mylmtj"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/jarda.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/jarda.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fa238f7e-ec44-4071-9495-66e9d1bfd0df"
+      }
+    }
+  }
+}
