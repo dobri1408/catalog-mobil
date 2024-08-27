@@ -1,31 +1,37 @@
 {
   "expo": {
-    "name": "myLMTJ",
-    "slug": "mylmtj",
-    "version": "1.0.0",
+    "name": "Liceul Tehnologic Telciu",
+    "slug": "liceultehnologictelciu",
+    "version": "1.0.1",
     "orientation": "default",
-    "icon": "./assets/jarda.png",
+    "icon": "./assets/logotelciu.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/jarda.png",
+      "image": "./assets/logotelciu.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "mylmtj"
+      "bundleIdentifier": "liceultehnologictelciu",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Aceasta aplicatie foloseste camerea ca sa poti sa adaugi documente. "
+      },
+      "buildNumber": "18"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/jarda.png",
+        "foregroundImage": "./assets/logotelciu.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dobricean_ioan.telciu",
+      "versionCode": 7
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/jarda.png"
+      "favicon": "./assets/logotelciu.png"
     },
     "plugins": [
       "expo-router"
@@ -38,7 +44,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "fa238f7e-ec44-4071-9495-66e9d1bfd0df"
+        "projectId": "8ec77fcb-75af-47c5-a582-7b2f2bf53ddb"
       }
     }
   }

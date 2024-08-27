@@ -71,7 +71,7 @@ const App = () => {
     <SafeAreaView style={styles.container}>
       <WebView
         ref={webviewRef}
-        source={{ uri: "https://catalog-lmtj.ro" }}
+        source={{ uri: "https://catalog-telciu.ro/" }}
         startInLoadingState={true}
         renderLoading={() => (
           <ActivityIndicator

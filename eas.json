@@ -10,15 +10,19 @@
       "distribution": "internal"
     },
     "production": {
+      "autoIncrement": true,
       "ios": {
         "simulator": false
       },
       "android": {
-        "gradleCommand": ":app:assembleRelease"
+        "buildType": "app-bundle"
       }
     }
   },
   "submit": {
     "production": {}
+  },
+  "cli": {
+    "promptToConfigurePushNotifications": false
   }
 }
