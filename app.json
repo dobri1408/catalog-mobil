@@ -1,20 +1,20 @@
 {
   "expo": {
-    "name": "Liceul Tehnologic Telciu",
-    "slug": "liceultehnologictelciu",
+    "name": "mySGMVT",
+    "slug": "mysgmvt",
     "version": "1.0.1",
     "orientation": "default",
-    "icon": "./assets/logotelciu.png",
+    "icon": "./assets/sgmvt.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/logotelciu.png",
+      "image": "./assets/sgmvt.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "liceultehnologictelciu",
+      "bundleIdentifier": "mysgmvt",
       "infoPlist": {
         "NSCameraUsageDescription": "Aceasta aplicatie foloseste camerea ca sa poti sa adaugi documente. "
       },
@@ -22,16 +22,16 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logotelciu.png",
+        "foregroundImage": "./assets/sgmvt.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.dobricean_ioan.telciu",
-      "versionCode": 7
+      "package": "com.dobricean_ioan.mysgmvt",
+      "versionCode": 16
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/logotelciu.png"
+      "favicon": "./assets/sgmvt.png"
     },
     "plugins": [
       "expo-router"
@@ -44,7 +44,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "8ec77fcb-75af-47c5-a582-7b2f2bf53ddb"
+        "projectId": "1f01028b-7e90-4858-b0f1-374d18b72050"
       }
     }
   }
