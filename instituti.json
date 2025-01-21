@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Scoala Gimnaziala Mihai Eminescu",
+    "url": "https://www.catalog-eminescu.ro"
+  },
+  {
+    "id": 2,
+    "name": "Liceul de Muzica Tudor Jarda",
+    "url": "https://catalog-lmtj.ro"
+  },
+  {
+    "id": 3,
+    "name": "Scoala Gimnaiziala Mihai Viteazul Targoviste",
+    "url": "https://catalog-sgmvt.ro"
+  },
+  {
+    "id": 4,
+    "name": "Scoala Gimnaiziala George Cosbuc",
+    "url": "https://catalog.scgimgeorgecosbuc.ro"
+  }
+]

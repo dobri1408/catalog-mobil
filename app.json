@@ -1,41 +1,40 @@
 {
   "expo": {
-    "name": "mySGMVT",
-    "slug": "mysgmvt",
+    "name": "CatalogElectronic",
+    "slug": "CatalogElectronic",
     "version": "1.0.1",
     "orientation": "default",
-    "icon": "./assets/sgmvt.png",
+    "icon": "./assets/logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/sgmvt.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "mysgmvt",
+      "bundleIdentifier": "CatalogElectronic",
       "infoPlist": {
         "NSCameraUsageDescription": "Aceasta aplicatie foloseste camerea ca sa poti sa adaugi documente. "
       },
       "buildNumber": "18"
     },
     "android": {
+      "permissions": ["INTERNET"],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/sgmvt.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.dobricean_ioan.mysgmvt",
+      "package": "com.dobricean_ioan.catalogelectronic",
       "versionCode": 16
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/sgmvt.png"
+      "favicon": "./assets/logo.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
     },
